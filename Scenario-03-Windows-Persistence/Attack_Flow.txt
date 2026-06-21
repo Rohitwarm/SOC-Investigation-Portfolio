@@ -1,0 +1,32 @@
+Valid Account (helpdesk)
+        │
+        ▼
+Privileged Session
+(Event 4672)
+        │
+        ▼
+Create backupsvc
+(Event 4720)
+        │
+        ▼
+Add To Administrators
+(Event 4732)
+        │
+        ▼
+Login As backupsvc
+(Event 4624)
+        │
+        ▼
+Create auditadmin
+(net.exe)
+        │
+        ▼
+Login As auditadmin
+(Event 4624)
+        │
+        ▼
+Clear Audit Logs
+(Event 1102)
+        │
+        ▼
+Persistence + Defense Evasion

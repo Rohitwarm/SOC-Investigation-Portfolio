@@ -1,0 +1,62 @@
+09:01:02
+Failed Login Attempt
+Administrator
+203.0.113.100
+
+        ↓
+
+09:02:30
+helpdesk Remote Logon
+198.51.100.50
+
+        ↓
+
+09:03:05
+Special Privileges Assigned
+Event ID 4672
+
+        ↓
+
+09:05:11
+Created Account
+backupsvc
+
+        ↓
+
+09:05:45
+Added backupsvc to Administrators
+
+        ↓
+
+09:06:10
+Password Changed
+backupsvc
+
+        ↓
+
+09:07:15
+backupsvc Login
+
+        ↓
+
+09:09:15
+net.exe Executed
+
+net user auditadmin P@ssw0rd! /add
+
+        ↓
+
+09:09:50
+Created Account
+auditadmin
+
+        ↓
+
+09:10:25
+auditadmin Login
+
+        ↓
+
+09:12:05
+Audit Logs Cleared
+Event ID 1102

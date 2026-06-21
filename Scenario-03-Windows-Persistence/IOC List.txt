@@ -1,0 +1,48 @@
+1. IOC List
+Network IOCs:-
+IOC Type	Value		Confidence
+Source IP	198.51.100.50	High
+Source IP	203.0.113.100	Low
+
+198.51.100.50 :-
+
+Successful Logon
+Privilege Assignment
+Account Creation
+Persistence
+Audit Log Clearing
+
+"Primary attacker IP."
+
+203.0.113.100 :-
+
+4625 Failed Logons
+
+Observed failed authentication attempts.
+
+No evidence of successful compromise.
+
+Account IOCs :-
+Account		Activity
+helpdesk	Initial privileged account
+backupsvc	Persistence account
+auditadmin	Secondary persistence account
+
+Process IOCs :-
+Process		Purpose
+cmd.exe		Interactive command execution
+net.exe		Account creation
+
+Evidence:-
+net user auditadmin P@ssw0rd! /add
+
+Event ID IOCs :-
+Event ID	Description
+4624		Successful Logon
+4625		Failed Logon
+4672		Privileged Logon
+4720		User Creation
+4723		Password Change
+4732		Added To Administrators
+4688		Process Creation
+1102		Audit Log Cleared

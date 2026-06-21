@@ -1,0 +1,9 @@
+| Technique                         | ID     | Evidence                       |
+| --------------------------------- | ------ | ------------------------------ |
+| Valid Accounts                    | T1078  | helpdesk login                 |
+| Create Account                    | T1136  | backupsvc, auditadmin          |
+| Account Manipulation              | T1098  | Added to Administrators        |
+| Command and Scripting Interpreter | T1059  | cmd.exe                        |
+| Persistence                       | TA0003 | backupsvc, auditadmin          |
+| Privilege Escalation              | TA0004 | Administrator group membership |
+| Indicator Removal on Host         | T1070  | Audit log clearing             |
