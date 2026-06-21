@@ -1,0 +1,18 @@
+Initial Access
+(T1078 - Valid Accounts)
+          │
+          ▼
+Privilege Escalation
+(T1548)
+          │
+          ▼
+Execution
+(T1059)
+          │
+          ▼
+Persistence
+(T1136 - Create Account)
+          │
+          ▼
+Impact
+(T1489 - Service Stop)
