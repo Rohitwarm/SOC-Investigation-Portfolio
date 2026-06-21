@@ -1,0 +1,66 @@
+# SOC Investigation Portfolio
+
+This repository contains my SOC Analyst investigation practice cases and incident response exercises.
+
+I started my SOC learning journey using platforms such as LetsDefend and Blue Team Labs Online, where I completed multiple hands-on blue team and incident investigation labs. After completing the free content available on these platforms, I wanted to continue improving my log analysis, detection engineering, incident investigation, and reporting skills.
+
+To continue practicing beyond the free labs, I built a structured investigation workflow using ChatGPT as a SOC mentor and scenario generator.
+
+## How This Repository Was Created
+
+For each investigation:
+
+1. ChatGPT acts as:
+
+   * SOC Team Lead
+   * SIEM Engineer
+   * Incident Response Trainer
+
+2. ChatGPT generates:
+
+   * Realistic log files
+   * Security alerts
+   * Investigation scenarios
+   * Incident response challenges
+   * SOC interview-style questions
+
+3. I act as:
+
+   * SOC Analyst (L1/L2)
+
+4. My responsibilities include:
+
+   * Log analysis
+   * Threat hunting
+   * Timeline creation
+   * IOC identification
+   * MITRE ATT&CK mapping
+   * Severity classification
+   * Incident reporting
+   * Containment recommendations
+
+5. After each investigation:
+
+   * My findings are reviewed
+   * Mistakes are identified
+   * Investigation methodology is improved
+   * Additional SOC concepts are explained
+
+## Skills Practiced
+
+* Splunk SPL
+* Linux Log Analysis
+* Windows Event Log Analysis
+* Incident Investigation
+* Alert Triage
+* Threat Hunting
+* MITRE ATT&CK Mapping
+* IOC Analysis
+* SOC Documentation
+* Incident Reporting
+* Root Cause Analysis
+* Detection Logic
+
+## Goal
+
+The purpose of this repository is to build practical SOC investigation experience, improve analytical thinking, and prepare for real-world SOC Analyst roles and interviews through continuous hands-on practice.
